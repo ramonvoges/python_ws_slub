@@ -1,0 +1,560 @@
+<record>
+ <header>
+  <identifier>
+   oai:de:slub-dresden:db:id-316102288
+  </identifier>
+  <datestamp>
+   2019-06-21T06:14:14Z
+  </datestamp>
+  <setspec>
+   15th-century-prints
+  </setspec>
+  <setspec>
+   virtual-treasure-chamber
+  </setspec>
+ </header>
+ <metadata>
+  <mets:mets xsi:schemalocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+   <mets:metshdr createdate="2019-06-21T05:27:02">
+    <mets:agent othertype="SOFTWARE" role="CREATOR" type="OTHER">
+     <mets:name>
+      Kitodo - kitodo-ugh-2.1.1-kitodo-ugh-2.1.1 - 21−January−2019
+     </mets:name>
+     <mets:note>
+      Kitodo
+     </mets:note>
+    </mets:agent>
+   </mets:metshdr>
+   <mets:dmdsec id="DMDLOG_0000">
+    <mets:mdwrap mdtype="MODS">
+     <mets:xmldata>
+      <mods:mods>
+       <mods:identifier type="goobi">
+        8851
+       </mods:identifier>
+       <mods:location>
+        <mods:physicallocation authority="marcorg" displaylabel="Saxon State Library, Dresden, Germany">
+         DE-14
+        </mods:physicallocation>
+        <mods:shelflocator>
+         Ink.1068.1
+        </mods:shelflocator>
+       </mods:location>
+       <mods:relateditem type="series">
+        <mods:titleinfo>
+         <mods:title lang="ger">
+          Drucke des 15. Jahrhunderts
+         </mods:title>
+        </mods:titleinfo>
+       </mods:relateditem>
+       <mods:relateditem type="series">
+        <mods:titleinfo>
+         <mods:title lang="ger">
+          Virtuelle Schatzkammer
+         </mods:title>
+        </mods:titleinfo>
+       </mods:relateditem>
+       <mods:recordinfo>
+        <mods:recordidentifier source="http://digital.slub-dresden.de/oai/">
+         oai:de:slub-dresden:db:id-316102288
+        </mods:recordidentifier>
+       </mods:recordinfo>
+       <mods:physicaldescription>
+        <mods:digitalorigin>
+         reformatted digital
+        </mods:digitalorigin>
+        <mods:extent>
+         nur 3 Bl., vell
+        </mods:extent>
+       </mods:physicaldescription>
+       <mods:identifier type="swb-ppn">
+        316102288
+       </mods:identifier>
+       <mods:identifier type="purl">
+        http://digital.slub-dresden.de/id316102288
+       </mods:identifier>
+       <mods:identifier type="urn">
+        urn:nbn:de:bsz:14-db-id3161022882
+       </mods:identifier>
+       <mods:extension>
+        <slub:slub>
+         <slub:id type="digital">
+          316102288
+         </slub:id>
+         <slub:id type="tsl-ats">
+          biblla42
+         </slub:id>
+         <slub:link displaylabel="Inkunabelkatalog INKA">
+          <slub:target>
+           http://www.inka.uni-tuebingen.de/cgi-bin/inkunabel?status=Suchen&amp;snachweis=4201&amp;naw=GW
+          </slub:target>
+         </slub:link>
+        </slub:slub>
+       </mods:extension>
+       <mods:titleinfo>
+        <mods:title>
+         Biblia, latina, 42zeilig
+        </mods:title>
+       </mods:titleinfo>
+       <mods:language>
+        <mods:languageterm authority="rfc3066" type="code">
+         la
+        </mods:languageterm>
+       </mods:language>
+       <mods:origininfo>
+        <mods:place>
+         <mods:placeterm type="text">
+          [Mainz]
+         </mods:placeterm>
+        </mods:place>
+        <mods:dateissued keydate="yes">
+         1456
+        </mods:dateissued>
+        <mods:publisher>
+         [Johann Guttenberg]
+        </mods:publisher>
+       </mods:origininfo>
+       <mods:titleinfo type="uniform">
+        <mods:title>
+         Biblia
+        </mods:title>
+       </mods:titleinfo>
+       <mods:accesscondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">
+        Public Domain Mark 1.0
+       </mods:accesscondition>
+       <mods:accesscondition displaylabel="Access Status" type="restriction on access" xlink:href="http://purl.org/coar/access_right/c_abf2">
+        Open Access
+       </mods:accesscondition>
+      </mods:mods>
+     </mets:xmldata>
+    </mets:mdwrap>
+   </mets:dmdsec>
+   <mets:dmdsec id="DMDLOG_0001">
+    <mets:mdwrap mdtype="MODS">
+     <mets:xmldata>
+      <mods:mods>
+       <mods:titleinfo>
+        <mods:title>
+         Sirach 3,11 - 4,15
+        </mods:title>
+        <mods:subtitle>
+         3,11: [benedictio patris] firmat domos filiorum maledictio autem matris eradicat fundamenta. - 4,15: qui serviunt ei obsequentes erunt Deo et eos qui diligunt illam [diligit Deus]
+        </mods:subtitle>
+       </mods:titleinfo>
+      </mods:mods>
+     </mets:xmldata>
+    </mets:mdwrap>
+   </mets:dmdsec>
+   <mets:dmdsec id="DMDLOG_0002">
+    <mets:mdwrap mdtype="MODS">
+     <mets:xmldata>
+      <mods:mods>
+       <mods:titleinfo>
+        <mods:title>
+         Sirach 4,15 – 5,17
+        </mods:title>
+        <mods:subtitle>
+         4,15: [qui serviunt ei obsequentes erunt Deo et eos qui diligunt illam] diligit Deus. - 5,17: super furem enim est confusio et paenitentia et denotatio pessima super bilinguem susurra[tori autem odium et inimicitia et contumelia]
+        </mods:subtitle>
+       </mods:titleinfo>
+      </mods:mods>
+     </mets:xmldata>
+    </mets:mdwrap>
+   </mets:dmdsec>
+   <mets:dmdsec id="DMDLOG_0003">
+    <mets:mdwrap mdtype="MODS">
+     <mets:xmldata>
+      <mods:mods>
+       <mods:titleinfo>
+        <mods:title>
+         Sirach 10,32 – 11,34
+        </mods:title>
+        <mods:subtitle>
+         10,32: [peccantem in animam suam] quis iustificabit et quis honorificabit exhonorantem animam suam. - 11,34: ab scintilla una augetur ignis et ab uno doloso augetur sanguis homo vero peccator [sanguini insidiatur]
+        </mods:subtitle>
+       </mods:titleinfo>
+      </mods:mods>
+     </mets:xmldata>
+    </mets:mdwrap>
+   </mets:dmdsec>
+   <mets:dmdsec id="DMDLOG_0004">
+    <mets:mdwrap mdtype="MODS">
+     <mets:xmldata>
+      <mods:mods>
+       <mods:titleinfo>
+        <mods:title>
+         Sirach 11,34 – 13,14
+        </mods:title>
+        <mods:subtitle>
+         11,34: [ab scintilla una augetur ignis et ab uno doloso augetur sanguis homo vero peccator] sanguini insidiatur. - 13,14: ne retineas ex aequo loqui cum illo ne credas multis verbis illius ex multa enim loquella temptabit te et subridens interrogabit te de absconditis [tuis]
+        </mods:subtitle>
+       </mods:titleinfo>
+      </mods:mods>
+     </mets:xmldata>
+    </mets:mdwrap>
+   </mets:dmdsec>
+   <mets:dmdsec id="DMDLOG_0005">
+    <mets:mdwrap mdtype="MODS">
+     <mets:xmldata>
+      <mods:mods>
+       <mods:titleinfo>
+        <mods:title>
+         Liber Sapientiae 13,14 – 14,23
+        </mods:title>
+        <mods:subtitle>
+         13,14: [aut alicui ex animalibus illud conparet perliniens] lubrica et rubicundum faciens fuco colorem illius et omnem maculam quae in illo est perliniens. - 14,23: aut enim filios suos sacrifica[ntes aut obscura sacrificia facientes aut insaniae plenas vigilias habentes]
+        </mods:subtitle>
+       </mods:titleinfo>
+      </mods:mods>
+     </mets:xmldata>
+    </mets:mdwrap>
+   </mets:dmdsec>
+   <mets:dmdsec id="DMDLOG_0006">
+    <mets:mdwrap mdtype="MODS">
+     <mets:xmldata>
+      <mods:mods>
+       <mods:titleinfo>
+        <mods:title>
+         Liber Sapientiae 14,23 – 15,18
+        </mods:title>
+        <mods:subtitle>
+         14,23: [aut enim filios suos sacrificantes aut obscura] sacrificia facientes aut insaniae plenas vigilias habentes. - 15,18: sed et animalia miserrima colunt insensate enim [conparata his aliis sunt deteriora]
+        </mods:subtitle>
+       </mods:titleinfo>
+      </mods:mods>
+     </mets:xmldata>
+    </mets:mdwrap>
+   </mets:dmdsec>
+   <mets:amdsec id="AMD">
+    <mets:rightsmd id="RIGHTS">
+     <mets:mdwrap mdtype="OTHER" mimetype="text/xml" othermdtype="DVRIGHTS">
+      <mets:xmldata>
+       <dv:rights>
+        <dv:owner>
+         Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden
+        </dv:owner>
+        <dv:ownerlogo>
+         http://digital.slub-dresden.de/fileadmin/images/dfgviewer_logo_slub.gif
+        </dv:ownerlogo>
+        <dv:ownersiteurl>
+         http://www.slub-dresden.de/
+        </dv:ownersiteurl>
+        <dv:ownercontact>
+         mailto:digital@slub-dresden.de
+        </dv:ownercontact>
+       </dv:rights>
+      </mets:xmldata>
+     </mets:mdwrap>
+    </mets:rightsmd>
+    <mets:digiprovmd id="DIGIPROV">
+     <mets:mdwrap mdtype="OTHER" mimetype="text/xml" othermdtype="DVLINKS">
+      <mets:xmldata>
+       <dv:links>
+        <dv:reference>
+         http://dienste.slub-dresden.de/cgi-bin/FOZK.pl?PPN=316102288
+        </dv:reference>
+        <dv:presentation>
+         https://digital.slub-dresden.de/id316102288
+        </dv:presentation>
+       </dv:links>
+      </mets:xmldata>
+     </mets:mdwrap>
+    </mets:digiprovmd>
+   </mets:amdsec>
+   <mets:filesec>
+    <mets:filegrp use="MAX">
+     <mets:file id="FILE_0001_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000001.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000002.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000003.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000004.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000005.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0006_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000006.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="DEFAULT">
+     <mets:file id="FILE_0001_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000001.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000002.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000003.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000004.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000005.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0006_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000006.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="MIN">
+     <mets:file id="FILE_0001_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000001.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000002.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000003.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000004.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000005.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0006_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000006.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="ORIGINAL">
+     <mets:file id="FILE_0001_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000001.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000002.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000003.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000004.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000005.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0006_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000006.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="THUMBS">
+     <mets:file id="FILE_0001_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000001.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000002.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000003.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000004.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000005.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0006_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000006.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="DOWNLOAD">
+     <mets:file id="FILE_0001_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000001.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000002.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000003.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000004.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000005.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0006_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/00000006.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FULLDOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/biblla42_316102288/biblla42_316102288_tif/jpegs/biblla42_316102288.pdf">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+   </mets:filesec>
+   <mets:structmap type="LOGICAL">
+    <mets:div admid="AMD" contentids="https://digital.slub-dresden.de/id316102288" dmdid="DMDLOG_0000" id="LOG_0000" label="Biblia, latina, 42zeilig" orderlabel="Biblia, latina, 42zeilig" type="monograph">
+     <mets:div dmdid="DMDLOG_0001" id="LOG_0001" label="Sirach 3,11 - 4,15" type="chapter">
+     </mets:div>
+     <mets:div dmdid="DMDLOG_0002" id="LOG_0002" label="Sirach 4,15 – 5,17" type="chapter">
+     </mets:div>
+     <mets:div dmdid="DMDLOG_0003" id="LOG_0003" label="Sirach 10,32 – 11,34" type="chapter">
+     </mets:div>
+     <mets:div dmdid="DMDLOG_0004" id="LOG_0004" label="Sirach 11,34 – 13,14" type="chapter">
+     </mets:div>
+     <mets:div dmdid="DMDLOG_0005" id="LOG_0005" label="Liber Sapientiae 13,14 – 14,23" type="chapter">
+     </mets:div>
+     <mets:div dmdid="DMDLOG_0006" id="LOG_0006" label="Liber Sapientiae 14,23 – 15,18" type="chapter">
+     </mets:div>
+    </mets:div>
+   </mets:structmap>
+   <mets:structmap type="PHYSICAL">
+    <mets:div id="PHYS_0000" type="physSequence">
+     <mets:fptr fileid="FULLDOWNLOAD">
+     </mets:fptr>
+     <mets:div id="PHYS_0001" order="1" orderlabel="1r" type="page">
+      <mets:fptr fileid="FILE_0001_MAX">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0001_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0001_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0001_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0001_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0001_DOWNLOAD">
+      </mets:fptr>
+     </mets:div>
+     <mets:div id="PHYS_0002" order="2" orderlabel="1v" type="page">
+      <mets:fptr fileid="FILE_0002_MAX">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0002_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0002_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0002_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0002_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0002_DOWNLOAD">
+      </mets:fptr>
+     </mets:div>
+     <mets:div id="PHYS_0003" order="3" orderlabel="2r" type="page">
+      <mets:fptr fileid="FILE_0003_MAX">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0003_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0003_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0003_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0003_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0003_DOWNLOAD">
+      </mets:fptr>
+     </mets:div>
+     <mets:div id="PHYS_0004" order="4" orderlabel="2v" type="page">
+      <mets:fptr fileid="FILE_0004_MAX">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0004_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0004_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0004_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0004_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0004_DOWNLOAD">
+      </mets:fptr>
+     </mets:div>
+     <mets:div id="PHYS_0005" order="5" orderlabel="3r" type="page">
+      <mets:fptr fileid="FILE_0005_MAX">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0005_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0005_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0005_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0005_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0005_DOWNLOAD">
+      </mets:fptr>
+     </mets:div>
+     <mets:div id="PHYS_0006" order="6" orderlabel="3v" type="page">
+      <mets:fptr fileid="FILE_0006_MAX">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0006_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0006_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0006_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0006_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0006_DOWNLOAD">
+      </mets:fptr>
+     </mets:div>
+    </mets:div>
+   </mets:structmap>
+   <mets:structlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0001">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0002">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0003">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0004">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0005">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0006">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0001" xlink:to="PHYS_0001">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0002" xlink:to="PHYS_0002">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0003" xlink:to="PHYS_0003">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0004" xlink:to="PHYS_0004">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0005" xlink:to="PHYS_0005">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0006" xlink:to="PHYS_0006">
+    </mets:smlink>
+   </mets:structlink>
+  </mets:mets>
+ </metadata>
+</record>

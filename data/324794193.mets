@@ -1,0 +1,431 @@
+<record>
+ <header>
+  <identifier>
+   oai:de:slub-dresden:db:id-324794193
+  </identifier>
+  <datestamp>
+   2019-03-23T22:04:02Z
+  </datestamp>
+  <setspec>
+   15th-century-prints
+  </setspec>
+  <setspec>
+   saxonica
+  </setspec>
+ </header>
+ <metadata>
+  <mets:mets xsi:schemalocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+   <mets:metshdr createdate="2019-03-21T06:39:41">
+    <mets:agent othertype="SOFTWARE" role="CREATOR" type="OTHER">
+     <mets:name>
+      Kitodo - kitodo-ugh-2.1.1-kitodo-ugh-2.1.1 - 21−January−2019
+     </mets:name>
+     <mets:note>
+      Kitodo
+     </mets:note>
+    </mets:agent>
+   </mets:metshdr>
+   <mets:dmdsec id="DMDLOG_0000">
+    <mets:mdwrap mdtype="MODS">
+     <mets:xmldata>
+      <mods:mods>
+       <mods:identifier type="goobi">
+        15182
+       </mods:identifier>
+       <mods:location>
+        <mods:physicallocation authority="marcorg" displaylabel="Saxon State Library, Dresden, Germany">
+         DE-14
+        </mods:physicallocation>
+        <mods:shelflocator>
+         Ink.934.2:2
+        </mods:shelflocator>
+       </mods:location>
+       <mods:relateditem type="series">
+        <mods:titleinfo>
+         <mods:title lang="ger">
+          Saxonica
+         </mods:title>
+        </mods:titleinfo>
+       </mods:relateditem>
+       <mods:relateditem type="series">
+        <mods:titleinfo>
+         <mods:title lang="ger">
+          Drucke des 15. Jahrhunderts
+         </mods:title>
+        </mods:titleinfo>
+       </mods:relateditem>
+       <mods:recordinfo>
+        <mods:recordidentifier source="http://digital.slub-dresden.de/oai/">
+         oai:de:slub-dresden:db:id-324794193
+        </mods:recordidentifier>
+       </mods:recordinfo>
+       <mods:physicaldescription>
+        <mods:digitalorigin>
+         reformatted digital
+        </mods:digitalorigin>
+        <mods:extent>
+         [1] Bl.
+        </mods:extent>
+       </mods:physicaldescription>
+       <mods:identifier type="swb-ppn">
+        324794193
+       </mods:identifier>
+       <mods:identifier type="purl">
+        http://digital.slub-dresden.de/id324794193
+       </mods:identifier>
+       <mods:identifier type="urn">
+        urn:nbn:de:bsz:14-db-id3247941930
+       </mods:identifier>
+       <mods:extension>
+        <slub:slub>
+         <slub:id type="digital">
+          324794193
+         </slub:id>
+         <slub:id type="tsl-ats">
+          muen
+         </slub:id>
+        </slub:slub>
+       </mods:extension>
+       <mods:titleinfo>
+        <mods:title>
+         Muenz-Edict
+        </mods:title>
+       </mods:titleinfo>
+       <mods:language>
+        <mods:languageterm authority="rfc3066" type="code">
+         de
+        </mods:languageterm>
+       </mods:language>
+       <mods:origininfo>
+        <mods:place>
+         <mods:placeterm type="text">
+          Leipzig
+         </mods:placeterm>
+        </mods:place>
+        <mods:dateissued keydate="yes">
+         1500
+        </mods:dateissued>
+        <mods:publisher>
+         Greg. Boettiger
+        </mods:publisher>
+       </mods:origininfo>
+       <mods:name type="personal">
+        <mods:role>
+         <mods:roleterm authority="marcrelator" type="code">
+          aut
+         </mods:roleterm>
+        </mods:role>
+        <mods:namepart type="family">
+         Georg &lt;Sachsen, Herzog&gt;
+        </mods:namepart>
+        <mods:displayform>
+         Georg &lt;Sachsen, Herzog&gt;
+        </mods:displayform>
+       </mods:name>
+      </mods:mods>
+     </mets:xmldata>
+    </mets:mdwrap>
+   </mets:dmdsec>
+   <mets:amdsec id="AMD">
+    <mets:rightsmd id="RIGHTS">
+     <mets:mdwrap mdtype="OTHER" mimetype="text/xml" othermdtype="DVRIGHTS">
+      <mets:xmldata>
+       <dv:rights>
+        <dv:owner>
+         Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden
+        </dv:owner>
+        <dv:ownerlogo>
+         http://digital.slub-dresden.de/fileadmin/images/dfgviewer_logo_slub.gif
+        </dv:ownerlogo>
+        <dv:ownersiteurl>
+         http://www.slub-dresden.de/
+        </dv:ownersiteurl>
+        <dv:ownercontact>
+         mailto:digital@slub-dresden.de
+        </dv:ownercontact>
+       </dv:rights>
+      </mets:xmldata>
+     </mets:mdwrap>
+    </mets:rightsmd>
+    <mets:digiprovmd id="DIGIPROV">
+     <mets:mdwrap mdtype="OTHER" mimetype="text/xml" othermdtype="DVLINKS">
+      <mets:xmldata>
+       <dv:links>
+        <dv:reference>
+         http://dienste.slub-dresden.de/cgi-bin/FOZK.pl?PPN=324794193
+        </dv:reference>
+        <dv:presentation>
+         https://digital.slub-dresden.de/id324794193
+        </dv:presentation>
+       </dv:links>
+      </mets:xmldata>
+     </mets:mdwrap>
+    </mets:digiprovmd>
+   </mets:amdsec>
+   <mets:filesec>
+    <mets:filegrp use="ORIGINAL">
+     <mets:file id="FILE_0000_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000001.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0001_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000002.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000003.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000004.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000005.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000006.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="DOWNLOAD">
+     <mets:file id="FILE_0000_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000001.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0001_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000002.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000003.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000004.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000005.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000006.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="MIN">
+     <mets:file id="FILE_0000_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000001.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0001_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000002.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000003.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000004.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000005.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000006.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="DEFAULT">
+     <mets:file id="FILE_0000_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000001.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0001_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000002.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000003.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000004.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000005.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000006.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="THUMBS">
+     <mets:file id="FILE_0000_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000001.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0001_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000002.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000003.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000004.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000005.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000006.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="MAX">
+     <mets:file id="FILE_0000_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000001.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0001_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000002.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0002_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000003.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0003_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000004.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0004_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000005.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FILE_0005_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/muen_324794193/muen_324794193_tif/jpegs/00000006.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+   </mets:filesec>
+   <mets:structmap type="LOGICAL">
+    <mets:div admid="AMD" contentids="https://digital.slub-dresden.de/id324794193" dmdid="DMDLOG_0000" id="LOG_0000" label="Muenz-Edict" orderlabel="Muenz-Edict" type="monograph">
+    </mets:div>
+   </mets:structmap>
+   <mets:structmap type="PHYSICAL">
+    <mets:div id="PHYS_0000" type="physSequence">
+     <mets:div id="PHYS_0001" order="1" orderlabel="1" type="page">
+      <mets:fptr fileid="FILE_0000_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0000_DOWNLOAD">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0000_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0000_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0000_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0000_MAX">
+      </mets:fptr>
+     </mets:div>
+     <mets:div id="PHYS_0002" order="2" orderlabel="2" type="page">
+      <mets:fptr fileid="FILE_0001_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0001_DOWNLOAD">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0001_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0001_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0001_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0001_MAX">
+      </mets:fptr>
+     </mets:div>
+     <mets:div id="PHYS_0003" order="3" orderlabel="3" type="page">
+      <mets:fptr fileid="FILE_0002_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0002_DOWNLOAD">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0002_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0002_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0002_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0002_MAX">
+      </mets:fptr>
+     </mets:div>
+     <mets:div id="PHYS_0004" order="4" orderlabel="4" type="page">
+      <mets:fptr fileid="FILE_0003_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0003_DOWNLOAD">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0003_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0003_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0003_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0003_MAX">
+      </mets:fptr>
+     </mets:div>
+     <mets:div id="PHYS_0005" order="5" orderlabel="5" type="page">
+      <mets:fptr fileid="FILE_0004_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0004_DOWNLOAD">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0004_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0004_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0004_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0004_MAX">
+      </mets:fptr>
+     </mets:div>
+     <mets:div id="PHYS_0006" order="6" orderlabel="6" type="page">
+      <mets:fptr fileid="FILE_0005_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0005_DOWNLOAD">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0005_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0005_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0005_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0005_MAX">
+      </mets:fptr>
+     </mets:div>
+    </mets:div>
+   </mets:structmap>
+   <mets:structlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0001">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0002">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0003">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0004">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0005">
+    </mets:smlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0006">
+    </mets:smlink>
+   </mets:structlink>
+  </mets:mets>
+ </metadata>
+</record>

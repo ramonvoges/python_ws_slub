@@ -1,0 +1,238 @@
+<record>
+ <header>
+  <identifier>
+   oai:de:slub-dresden:db:id-332852911
+  </identifier>
+  <datestamp>
+   2019-06-21T06:28:42Z
+  </datestamp>
+  <setspec>
+   15th-century-prints
+  </setspec>
+  <setspec>
+   virtual-treasure-chamber
+  </setspec>
+ </header>
+ <metadata>
+  <mets:mets xsi:schemalocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+   <mets:metshdr createdate="2019-06-21T05:28:12">
+    <mets:agent othertype="SOFTWARE" role="CREATOR" type="OTHER">
+     <mets:name>
+      Kitodo - kitodo-ugh-2.1.1-kitodo-ugh-2.1.1 - 21−January−2019
+     </mets:name>
+     <mets:note>
+      Kitodo
+     </mets:note>
+    </mets:agent>
+   </mets:metshdr>
+   <mets:dmdsec id="DMDLOG_0000">
+    <mets:mdwrap mdtype="MODS">
+     <mets:xmldata>
+      <mods:mods>
+       <mods:identifier type="goobi">
+        22451
+       </mods:identifier>
+       <mods:location>
+        <mods:physicallocation authority="marcorg" displaylabel="Saxon State Library, Dresden, Germany">
+         DE-14
+        </mods:physicallocation>
+        <mods:shelflocator>
+         Mscr.Dresd.g.83,misc.23
+        </mods:shelflocator>
+       </mods:location>
+       <mods:relateditem type="series">
+        <mods:titleinfo>
+         <mods:title lang="ger">
+          Drucke des 15. Jahrhunderts
+         </mods:title>
+        </mods:titleinfo>
+       </mods:relateditem>
+       <mods:relateditem type="series">
+        <mods:titleinfo>
+         <mods:title lang="ger">
+          Virtuelle Schatzkammer
+         </mods:title>
+        </mods:titleinfo>
+       </mods:relateditem>
+       <mods:recordinfo>
+        <mods:recordidentifier source="http://digital.slub-dresden.de/oai/">
+         oai:de:slub-dresden:db:id-332852911
+        </mods:recordidentifier>
+       </mods:recordinfo>
+       <mods:physicaldescription>
+        <mods:digitalorigin>
+         reformatted digital
+        </mods:digitalorigin>
+        <mods:extent>
+         1 Bl.
+        </mods:extent>
+       </mods:physicaldescription>
+       <mods:identifier type="swb-ppn">
+        332852911
+       </mods:identifier>
+       <mods:identifier type="purl">
+        http://digital.slub-dresden.de/id332852911
+       </mods:identifier>
+       <mods:identifier type="urn">
+        urn:nbn:de:bsz:14-db-id3328529111
+       </mods:identifier>
+       <mods:extension>
+        <slub:slub>
+         <slub:id type="digital">
+          332852911
+         </slub:id>
+         <slub:id type="tsl-ats">
+          stba
+         </slub:id>
+        </slub:slub>
+       </mods:extension>
+       <mods:titleinfo>
+        <mods:title>
+         St. Barbara
+        </mods:title>
+       </mods:titleinfo>
+       <mods:origininfo>
+        <mods:place>
+         <mods:placeterm type="text">
+          [S.l.]
+         </mods:placeterm>
+        </mods:place>
+        <mods:dateissued keydate="yes">
+         [um 1470?]
+        </mods:dateissued>
+        <mods:dateother encoding="w3cdtf" type="order">
+         1470
+        </mods:dateother>
+       </mods:origininfo>
+       <mods:accesscondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">
+        Public Domain Mark 1.0
+       </mods:accesscondition>
+       <mods:accesscondition displaylabel="Access Status" type="restriction on access" xlink:href="http://purl.org/coar/access_right/c_abf2">
+        Open Access
+       </mods:accesscondition>
+      </mods:mods>
+     </mets:xmldata>
+    </mets:mdwrap>
+   </mets:dmdsec>
+   <mets:dmdsec id="DMDPHYS_0000">
+    <mets:mdwrap mdtype="MODS">
+     <mets:xmldata>
+      <mods:mods>
+       <mods:physicaldescription>
+        <mods:extent>
+         in Sammelmappe, 180 x 120
+        </mods:extent>
+       </mods:physicaldescription>
+      </mods:mods>
+     </mets:xmldata>
+    </mets:mdwrap>
+   </mets:dmdsec>
+   <mets:amdsec id="AMD">
+    <mets:rightsmd id="RIGHTS">
+     <mets:mdwrap mdtype="OTHER" mimetype="text/xml" othermdtype="DVRIGHTS">
+      <mets:xmldata>
+       <dv:rights>
+        <dv:owner>
+         Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden
+        </dv:owner>
+        <dv:ownerlogo>
+         http://digital.slub-dresden.de/fileadmin/images/dfgviewer_logo_slub.gif
+        </dv:ownerlogo>
+        <dv:ownersiteurl>
+         http://www.slub-dresden.de/
+        </dv:ownersiteurl>
+        <dv:ownercontact>
+         mailto:digital@slub-dresden.de
+        </dv:ownercontact>
+       </dv:rights>
+      </mets:xmldata>
+     </mets:mdwrap>
+    </mets:rightsmd>
+    <mets:digiprovmd id="DIGIPROV">
+     <mets:mdwrap mdtype="OTHER" mimetype="text/xml" othermdtype="DVLINKS">
+      <mets:xmldata>
+       <dv:links>
+        <dv:reference>
+         http://dienste.slub-dresden.de/cgi-bin/FOZK.pl?PPN=332852911
+        </dv:reference>
+        <dv:presentation>
+         https://digital.slub-dresden.de/id332852911
+        </dv:presentation>
+       </dv:links>
+      </mets:xmldata>
+     </mets:mdwrap>
+    </mets:digiprovmd>
+   </mets:amdsec>
+   <mets:filesec>
+    <mets:filegrp use="ORIGINAL">
+     <mets:file id="FILE_0000_ORIGINAL" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/stba_332852911/stba_332852911_tif/jpegs/00000001.tif.original.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="THUMBS">
+     <mets:file id="FILE_0000_THUMBS" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/stba_332852911/stba_332852911_tif/jpegs/00000001.tif.thumbnail.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="MAX">
+     <mets:file id="FILE_0000_MAX" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/stba_332852911/stba_332852911_tif/jpegs/00000001.tif.large.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="DEFAULT">
+     <mets:file id="FILE_0000_DEFAULT" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/stba_332852911/stba_332852911_tif/jpegs/00000001.tif.medium.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="MIN">
+     <mets:file id="FILE_0000_MIN" mimetype="image/jpeg">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/stba_332852911/stba_332852911_tif/jpegs/00000001.tif.small.jpg">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+    <mets:filegrp use="DOWNLOAD">
+     <mets:file id="FILE_0000_DOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/stba_332852911/stba_332852911_tif/jpegs/00000001.tif.pdf">
+      </mets:flocat>
+     </mets:file>
+     <mets:file id="FULLDOWNLOAD" mimetype="application/pdf">
+      <mets:flocat loctype="URL" xlink:href="https://digital.slub-dresden.de/data/kitodo/stba_332852911/stba_332852911_tif/jpegs/stba_332852911.pdf">
+      </mets:flocat>
+     </mets:file>
+    </mets:filegrp>
+   </mets:filesec>
+   <mets:structmap type="LOGICAL">
+    <mets:div admid="AMD" contentids="https://digital.slub-dresden.de/id332852911" dmdid="DMDLOG_0000" id="LOG_0000" label="St. Barbara" orderlabel="St. Barbara" type="monograph">
+    </mets:div>
+   </mets:structmap>
+   <mets:structmap type="PHYSICAL">
+    <mets:div dmdid="DMDPHYS_0000" id="PHYS_0000" type="physSequence">
+     <mets:fptr fileid="FULLDOWNLOAD">
+     </mets:fptr>
+     <mets:div id="PHYS_0001" order="1" orderlabel="1" type="page">
+      <mets:fptr fileid="FILE_0000_ORIGINAL">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0000_THUMBS">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0000_MAX">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0000_DEFAULT">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0000_MIN">
+      </mets:fptr>
+      <mets:fptr fileid="FILE_0000_DOWNLOAD">
+      </mets:fptr>
+     </mets:div>
+    </mets:div>
+   </mets:structmap>
+   <mets:structlink>
+    <mets:smlink xlink:from="LOG_0000" xlink:to="PHYS_0001">
+    </mets:smlink>
+   </mets:structlink>
+  </mets:mets>
+ </metadata>
+</record>
