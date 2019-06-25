@@ -1,7 +1,32 @@
+"""
+This module provides functions for downloading, saving and processing of
+mets files.
+
+Developed by André Wendler and Ramon Voges.
+
+"""
+
 import os
-from urllib.request import urlopen
+
 from glob import glob
+from urllib.request import urlopen
 from bs4 import BeautifulSoup as soup
+
+
+def download_xml(url, output_path):
+    """
+    Download xml file with mets-mods from given <url> and save each record
+    to an individual file in <output_path>.
+    """
+    xml = urlopen(url)
+    xml_soup = soup(xml, 'lxml')
+    for record in xml_soup.find_all('record'):
+        slub_id = record.find("slub:id").string.strip()
+        if os.path.exists(output_path) != True:
+            os.mkdir(output_path)
+        with open("{}/{}.mets".format(output_path, slub_id), mode='a+') as f:
+            f.write(record.prettify())
+            print("Saved record {} to {}.".format(slub_id, f.name))
 
 
 def load_xml(file):
@@ -60,10 +85,10 @@ def find_publishers(path):
 def find_issue_date(path):
     """Find all issue dates in the given mets files in <path> and provide a generator."""
     for record in find_records(path):
-        try: 
+        try:
             date = record.find('mods:dateissued').get_text().strip()
         except:
-            date = '[unbekannt]' 
+            date = '[unbekannt]'
         yield date
 
 
