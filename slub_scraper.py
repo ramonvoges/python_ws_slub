@@ -12,6 +12,18 @@ from glob import glob
 from urllib.request import urlopen
 from bs4 import BeautifulSoup as soup
 
+from geopy.geocoders import Nominatim
+from geopy.extra.rate_limiter import RateLimiter
+
+#  import matplotlib.pyplot as plt
+#  import cartopy.crs as ccrs
+
+import plotly.offline as py
+import plotly.graph_objs as go
+
+#  import seaborn as sns
+#  sns.set()
+
 
 def download_xml(url, output_path):
     """
@@ -127,3 +139,48 @@ def count_places(path):
         else:
             places[place] = 1
     return places
+
+
+def plot_places(path):
+    """Plot the places found in the given mets files in a bar chart."""
+    cp = count_places(path)
+    keys = list(cp.keys())
+    values = list(cp.values())
+
+    #  plt.xticks(range(len(keys)), keys, rotation='vertical')
+    #  plt.bar(keys, values)
+
+    bar_chart = go.Bar(x=keys, y=values)
+    figures = [bar_chart]
+    py.plot(figures, filename='places.html', auto_open=True)
+
+
+def find_geo(path):
+    """Geolocate the places found in the given mets files."""
+    geolocator = Nominatim(user_agent='SLUB Scraper')
+    geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
+    locations = [geocode(place) for place in find_places(path)]
+    return locations
+
+
+def plot_geo(path):
+    """Plot the places found in the given mets files on a map."""
+    locations = find_geo(path)
+
+    #  ax = plt.axes(projection=ccrs.PlateCarree())
+    #  ax.coastlines(resolution='50m')
+    #  for loc in locations:
+    #      x = loc.longitude
+    #      y = loc.latitude
+    #      plt.scatter(x, y, transform=ccrs.PlateCarree())
+    #      plt.text(x+0.3, y+0.3, loc.address)
+
+    lat = [loc.latitude for loc in locations]
+    lon = [loc.longitude for loc in locations]
+    text = [loc.address for loc in locations]
+    geo = go.Scattergeo(lat=lat, lon=lon, text=text)
+    figures = [geo]
+    #  layout = {'geo': {'scope': 'europe', 'showcountries': False, 'showcoastlines': True}}
+    #  fig = go.Figure(data=data, layout=layout)
+    #  py.plot(fig, filename='map.html', auto_open=True)
+    py.plot(figures, filename='map.html', auto_open=True)
