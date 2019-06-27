@@ -36,24 +36,27 @@ def download_xml(url, output_path):
         slub_id = record.find("slub:id").string.strip()
         if os.path.exists(output_path) != True:
             os.mkdir(output_path)
-        with open("{}/{}.mets".format(output_path, slub_id), mode='a+') as f:
+        with open("{}/{}.mets".format(output_path, slub_id), mode='w') as f:
             f.write(record.prettify())
             print("Saved record {} to {}.".format(slub_id, f.name))
 
 
-def load_xml(file):
-    """Read the XML <file> and return a Beautiful Soup object."""
-    with open(file) as f:
-        xml = f.read()
-        xml_soup = soup(xml, "lxml")
-        return xml_soup
+# def load_xml(file):
+#     """Read the XML <file> and return a Beautiful Soup object."""
+#     with open(file) as f:
+#         xml = f.read()
+#         xml_soup = soup(xml, "lxml")
+#         return xml_soup
 
 
 def load_mets(path):
     """Load the files in <path> and provide a generator."""
     mets = glob(path)
     for file in mets:
-        yield load_xml(file)
+        with open(file) as f:
+            xml = f.read()
+            xml_soup = soup(xml, "lxml")
+            yield xml_soup
 
 
 def find_records(path):
@@ -184,3 +187,11 @@ def plot_geo(path):
     #  fig = go.Figure(data=data, layout=layout)
     #  py.plot(fig, filename='map.html', auto_open=True)
     py.plot(figures, filename='map.html', auto_open=True)
+
+if __name__ == "__main__":
+    download_xml('https://digital.slub-dresden.de/oai/?verb=ListRecords&metadataPrefix=mets&set=15th-century-prints', 'DATA')
+    print('Die folgenden Titel wurden heruntergeladen: ')
+    files = 'data/*.mets'
+    print(works(files))
+    plot_places(files)
+    plot_geo(files)
