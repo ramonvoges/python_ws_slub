@@ -128,7 +128,7 @@ def write_files(input_path, output_path):
         slub_id = record.find("slub:id").string.strip()
         if os.path.exists(output_path) == False:
             os.mkdir(output_path)
-        with open("{}/{}.mets".format(output_path, slub_id), mode='a+') as f:
+        with open("{}/{}.mets".format(output_path, slub_id), mode='w') as f:
             f.write(record.prettify())
             print("Saved record {} to {}.".format(slub_id, f.name))
 
