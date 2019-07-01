@@ -189,7 +189,7 @@ def plot_geo(path):
     py.plot(figures, filename='map.html', auto_open=True)
 
 if __name__ == "__main__":
-    download_xml('https://digital.slub-dresden.de/oai/?verb=ListRecords&metadataPrefix=mets&set=15th-century-prints', 'DATA')
+    download_xml('https://digital.slub-dresden.de/oai/?verb=ListRecords&metadataPrefix=mets&set=15th-century-prints', 'data')
     print('Die folgenden Titel wurden heruntergeladen: ')
     files = 'data/*.mets'
     print(works(files))
